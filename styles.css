@@ -14,15 +14,32 @@
     --sdCoreBorderRadiusDefault: 6px; /* Default border radius for all elements */
     --sdCoreButtonBorder: 2px solid #0050B2; /* Default secondary buttons */
     --sdCoreMinimumHeight: 44px; /* Default sizing for inputs that could potentially be touch targets, ie buttons, text inputs, checkbox, radio buttons, toggles */
-    --sdCoreOpenSans: Open Sans; /* Open Sans typeface */
+    --sdCoreOpenSans: "Public Sans", sans-serif; /* Open Sans typeface */
+    --sdCoreButtonTextPadding: 12px; /* button text padding */
+    --sdCoreWhite: #FFF; /* White  */
+    --sdCoreTransparent: #; /* transparent */
   }
+
+body{
+    font-family: var(--sdCoreOpenSans);
+}
 
 .primary {
     font-family: var(--sdCoreOpenSans);
     background-color: var(--sdCoreEaPrimary100);
     min-height: var(--sdCoreMinimumHeight);
     border-radius: var(--sdCoreBorderRadiusDefault);
-    color:#fff;
+    padding: var(--sdCoreButtonTextPadding);
+    border: var(--sdCoreButtonBorder);
+    color: var(--sdCoreWhite);
+  }
+
+.primary:hover {
+    background-color: var(--sdCoreEaPrimary120);
+  }
+
+.primary:active {
+    background-color: var(--sdCoreEaPrimary140);
   }
 
 .secondary {
@@ -31,4 +48,16 @@
     border: var(--sdCoreButtonBorder);
     min-height: var(--sdCoreMinimumHeight);
     border-radius: var(--sdCoreBorderRadiusDefault);
+    padding: var(--sdCoreButtonTextPadding);
+    background-color: var(--sdCoreTransparent);
+  }
+
+.secondary:hover {
+    color: var(--sdCoreEaPrimary120);
+    border-color: var(--sdCoreEaPrimary120);
+  }
+
+.secondary:active {
+    color: var(--sdCoreEaPrimary140);
+    border-color: var(--sdCoreEaPrimary140);
   }
