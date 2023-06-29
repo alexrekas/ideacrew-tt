@@ -1,0 +1,20 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 29 Jun 2023 19:33:45 GMT
+ */
+
+ :root {
+    --sdCoreEaPrimary100: #0050B2; /* Primary Base Color */
+    --sdCoreEaPrimary120: #00408E; /* primary 120 */
+    --sdCoreEaPrimary140: #00306B;
+    --sdCoreEaSecondary100: #00224C;
+    --sdCoreEaSecondary120: #001B3E;
+    --sdCoreEaSecondary140: #00142E;
+    --sdCoreTextSpacingSm: 12px; /* default spacing between paragraph text blocks */
+    --sdCoreButtonBorderWidthDefault: 2px; /* Default border size on buttons */
+    --sdCoreBorderRadiusDefault: 6px; /* Default border radius for all elements */
+    --sdCoreButtonBorder: 2px solid #0050B2; /* Default secondary buttons */
+    --sdCoreMinimumHeight: 44px; /* Default sizing for inputs that could potentially be touch targets, ie buttons, text inputs, checkbox, radio buttons, toggles */
+    --sdCoreOpenSans: Open Sans; /* Open Sans typeface */
+  }
+  
