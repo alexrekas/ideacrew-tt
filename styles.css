@@ -1,5 +1,4 @@
 /**
- * Do not edit directly
  * Generated on Thu, 29 Jun 2023 19:33:45 GMT
  */
 
@@ -17,4 +16,17 @@
     --sdCoreMinimumHeight: 44px; /* Default sizing for inputs that could potentially be touch targets, ie buttons, text inputs, checkbox, radio buttons, toggles */
     --sdCoreOpenSans: Open Sans; /* Open Sans typeface */
   }
-  
+
+.primary {
+    font-family: var(--sdCoreOpenSans);
+    background-color: var(--sdCoreEaPrimary100);
+    min-height: var(--sdCoreMinimumHeight);
+    color:#fff;
+  }
+
+.secondary {
+    font-family: var(--sdCoreOpenSans);
+    color: var(--sdCoreEaPrimary100);
+    border: var(--sdCoreButtonBorder);
+    min-height: var(--sdCoreMinimumHeight);
+  }
