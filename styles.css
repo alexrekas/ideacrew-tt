@@ -21,6 +21,7 @@
     font-family: var(--sdCoreOpenSans);
     background-color: var(--sdCoreEaPrimary100);
     min-height: var(--sdCoreMinimumHeight);
+    border-radius: var(--sdCoreBorderRadiusDefault);
     color:#fff;
   }
 
@@ -29,4 +30,5 @@
     color: var(--sdCoreEaPrimary100);
     border: var(--sdCoreButtonBorder);
     min-height: var(--sdCoreMinimumHeight);
+    border-radius: var(--sdCoreBorderRadiusDefault);
   }
