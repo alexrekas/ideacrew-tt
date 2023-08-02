@@ -32,6 +32,7 @@ body{
     background-color: var(--sdCoreEaPrimary100);
     min-height: var(--sdCoreMinimumHeight);
     border-radius: var(--sdCoreBorderRadiusDefault);
+    border: var(--sdCoreButtonBorder);
     padding: var(--sdCoreButtonTextPadding);
     border: var(--sdCoreButtonBorder);
     color: var(--sdCoreWhite);
