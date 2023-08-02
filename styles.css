@@ -1,4 +1,9 @@
-:root {
+/**
+ * Do not edit directly
+ * Generated on Wed, 02 Aug 2023 20:06:08 GMT
+ */
+
+ :root {
   --sdCoreEaPrimary100: #0050B2; /* Primary Base Color */
   --sdCoreEaPrimary120: #00408E; /* primary 120 */
   --sdCoreEaPrimary140: #00306B;
@@ -14,7 +19,7 @@
   --sdCoreButtonTextPadding: 12px; /* button text padding */
   --sdCoreWhite: #FFF; /* White  */
   --sdCoreTransparent: #; /* transparent */
-  --sdCoreOpenSans: 'Open Sans'; /* Open Sans Font Family */
+  --sdCoreOpenSans: 'Open Sans'; /* Open Sans typaceface */
 }
 
 body{
