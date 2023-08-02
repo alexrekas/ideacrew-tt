@@ -28,7 +28,7 @@ body{
 }
 
 .primary {
-    font-family: var(--sdCoreOpenSans);
+    font-family: var(--sdCoreOpenSans), var(--sdCoreButtonText);
     background-color: var(--sdCoreEaPrimary100);
     min-height: var(--sdCoreMinimumHeight);
     border-radius: var(--sdCoreBorderRadiusDefault);
