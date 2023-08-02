@@ -13,14 +13,14 @@
   --sdCoreTextSpacingSm: 12px; /* default spacing between paragraph text blocks */
   --sdCoreButtonBorderWidthDefault: 2px; /* Default border size on buttons */
   --sdCoreBorderRadiusDefault: 6px; /* Default border radius for all elements */
-  --sdCoreButtonBorder: 2px solid #0050B2; /* Default secondary buttons */
+  --sdCoreButtonBorder: 2px solid var(--sdCoreEaPrimary100); /* Default secondary buttons */
   --sdCoreMinimumHeight: 44px; /* Default sizing for inputs that could potentially be touch targets, ie buttons, text inputs, checkbox, radio buttons, toggles */
   --sdCorePublicSans: 'Public Sans'; /* Public Sans typeface */
   --sdCoreButtonTextPadding: 12px; /* button text padding */
   --sdCoreWhite: #FFF; /* White  */
   --sdCoreTransparent: #; /* transparent */
   --sdCoreOpenSans: 'Open Sans'; /* Open Sans typaceface */
-  --sdCoreButtonText: 600 16px/1 'Open Sans';
+  --sdCoreButtonText: 600;
 }
 
 body{
@@ -28,7 +28,8 @@ body{
 }
 
 .primary {
-    font-family: var(--sdCoreOpenSans), var(--sdCoreButtonText);
+    font-family: var(--sdCoreOpenSans);
+    font-weight: var(--sdCoreButtonText);
     background-color: var(--sdCoreEaPrimary100);
     min-height: var(--sdCoreMinimumHeight);
     border-radius: var(--sdCoreBorderRadiusDefault);
@@ -47,11 +48,11 @@ body{
 
 .secondary {
     font-family: var(--sdCoreOpenSans);
+    font-weight: var(--sdCoreButtonText);
     color: var(--sdCoreEaPrimary100);
     border: var(--sdCoreButtonBorder);
     min-height: var(--sdCoreMinimumHeight);
     border-radius: var(--sdCoreBorderRadiusDefault);
-    border: var(--sdCoreButtonBorder);
     padding: var(--sdCoreButtonTextPadding);
     background-color: var(--sdCoreTransparent);
   }
