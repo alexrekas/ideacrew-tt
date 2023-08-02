@@ -32,7 +32,6 @@ body{
     background-color: var(--sdCoreEaPrimary100);
     min-height: var(--sdCoreMinimumHeight);
     border-radius: var(--sdCoreBorderRadiusDefault);
-    border: var(--sdCoreButtonBorder);
     padding: var(--sdCoreButtonTextPadding);
     border: var(--sdCoreButtonBorder);
     color: var(--sdCoreWhite);
@@ -52,16 +51,19 @@ body{
     border: var(--sdCoreButtonBorder);
     min-height: var(--sdCoreMinimumHeight);
     border-radius: var(--sdCoreBorderRadiusDefault);
+    border: var(--sdCoreButtonBorder);
     padding: var(--sdCoreButtonTextPadding);
     background-color: var(--sdCoreTransparent);
   }
 
 .secondary:hover {
     color: var(--sdCoreEaPrimary120);
+    border: var(--sdCoreButtonBorder);
     border-color: var(--sdCoreEaPrimary120);
   }
 
 .secondary:active {
     color: var(--sdCoreEaPrimary140);
+    border: var(--sdCoreButtonBorder);
     border-color: var(--sdCoreEaPrimary140);
   }
