@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Thu, 03 Aug 2023 19:13:46 GMT
+ * Generated on Thu, 03 Aug 2023 19:32:57 GMT
  */
 
  :root {
-  --sdCoreEaPrimary100: #0067A1; /* Primary Base Color */
-  --sdCoreEaPrimary120: #005281; /* primary 120 */
-  --sdCoreEaPrimary140: #003E61;
+  --sdCoreEaPrimary100: #0050B2; /* Primary Base Color */
+  --sdCoreEaPrimary120: #00408E; /* primary 120 */
+  --sdCoreEaPrimary140: #00306B;
   --sdCoreEaSecondary100: #A21E1F;
   --sdCoreEaSecondary120: #85191A;
   --sdCoreEaSecondary140: #671314;
