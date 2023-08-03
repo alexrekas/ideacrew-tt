@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 02 Aug 2023 21:06:20 GMT
+ * Generated on Thu, 03 Aug 2023 18:37:46 GMT
  */
 
  :root {
@@ -13,7 +13,7 @@
   --sdCoreTextSpacingSm: 12px; /* default spacing between paragraph text blocks */
   --sdCoreButtonBorderWidthDefault: 2px; /* Default border size on buttons */
   --sdCoreBorderRadiusDefault: 6px; /* Default border radius for all elements */
-  --sdCoreButtonBorder: 2px solid #0050B2; /* Default secondary buttons */
+  --sdCoreButtonBorder: 2px solid var(--sdCoreEaPrimary100); /* Default secondary buttons */
   --sdCoreMinimumHeight: 44px; /* Default sizing for inputs that could potentially be touch targets, ie buttons, text inputs, checkbox, radio buttons, toggles */
   --sdCorePublicSans: 'Public Sans'; /* Public Sans typeface */
   --sdCoreButtonTextPadding: 12px; /* button text padding */
