@@ -4,7 +4,7 @@
  */
 
  :root {
-  --sdCoreEaPrimary100: #0050B2; /* Primary Base Color */
+  --sdCoreEaPrimary100: #00FFFF; /* Primary Base Color */
   --sdCoreEaPrimary120: #00408E; /* primary 120 */
   --sdCoreEaPrimary140: #00306B;
   --sdCoreEaSecondary100: #00224C;
@@ -47,25 +47,67 @@ body{
     background-color: var(--sdCoreEaPrimary140);
   }
 
+.primary.outline {
+  color: var(--sdCoreEaPrimary100);
+  border: var(--sdCoreButtonBorder);
+  border-color: var(--sdCoreEaPrimary100);
+  background-color: var(--sdCoreTransparent); 
+}
+  
+.primary.outline:hover{
+  color: var(--sdCoreEaPrimary120);
+  border: var(--sdCoreButtonBorder);
+  border-color: var(--sdCoreEaPrimary120);
+  background-color: var(--sdCoreTransparent); 
+}
+  
+.primary.outline:active {
+  color: var(--sdCoreEaPrimary140);
+  border: var(--sdCoreButtonBorder);
+  border-color: var(--sdCoreEaPrimary140);
+  background-color: var(--sdCoreTransparent); 
+}
+
 .secondary {
-    font-family: var(--sdCorePublicSans);
-    font-weight: var(--sdCoreSemibold);
-    color: var(--sdCoreEaPrimary100);
-    border: var(--sdCoreButtonBorder);
-    min-height: var(--sdCoreMinimumHeight);
-    border-radius: var(--sdCoreBorderRadiusDefault);
-    padding: var(--sdCoreButtonTextPadding);
-    background-color: var(--sdCoreTransparent);
-  }
+  font-family: var(--sdCorePublicSans);
+  font-weight: var(--sdCoreSemibold);
+  background-color: var(--sdCoreEaSecondary100);
+  color: var(--sdCoreWhite);
+  border: var(--sdCoreButtonBorder);
+  border-color: var(--sdCoreEaSecondary100);
+  min-height: var(--sdCoreMinimumHeight);
+  border-radius: var(--sdCoreBorderRadiusDefault);
+  padding: var(--sdCoreButtonTextPadding);
+}
 
 .secondary:hover {
-    color: var(--sdCoreEaPrimary120);
     border: var(--sdCoreButtonBorder);
-    border-color: var(--sdCoreEaPrimary120);
+    border-color: var(--sdCoreEaSecondary120);
   }
 
 .secondary:active {
-    color: var(--sdCoreEaPrimary140);
     border: var(--sdCoreButtonBorder);
-    border-color: var(--sdCoreEaPrimary140);
+    border-color: var(--sdCoreEaSecondary140);
   }
+
+.secondary.outline {
+  color: var(--sdCoreEaSecondary100);
+  border: var(--sdCoreButtonBorder);
+  border-color: var(--sdCoreEaSecondary100);
+  background-color: var(--sdCoreTransparent); 
+}
+
+.secondary.outline:hover{
+  color: var(--sdCoreEaSecondary120);
+  border: var(--sdCoreButtonBorder);
+  border-color: var(--sdCoreEaSecondary120);
+  background-color: var(--sdCoreTransparent); 
+}
+
+.secondary.outline:active {
+  color: var(--sdCoreEaSecondary140);
+  border: var(--sdCoreButtonBorder);
+  border-color: var(--sdCoreEaSecondary140);
+  background-color: var(--sdCoreTransparent); 
+}
+
