@@ -25,11 +25,11 @@
 }
 
 body{
-    font-family: var(--sdCoreOpenSans);
+    font-family: var(--sdCorePublicSans);
 }
 
 .primary {
-    font-family: var(--sdCoreOpenSans);
+    font-family: var(--sdCorePublicSans);
     font-weight: var(--sdCoreSemibold);
     background-color: var(--sdCoreEaPrimary100);
     min-height: var(--sdCoreMinimumHeight);
@@ -48,7 +48,7 @@ body{
   }
 
 .secondary {
-    font-family: var(--sdCoreOpenSans);
+    font-family: var(--sdCorePublicSans);
     font-weight: var(--sdCoreSemibold);
     color: var(--sdCoreEaPrimary100);
     border: var(--sdCoreButtonBorder);
