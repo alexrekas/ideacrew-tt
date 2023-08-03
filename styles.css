@@ -7,9 +7,9 @@
   --sdCoreEaPrimary100: #00FFFF; /* Primary Base Color */
   --sdCoreEaPrimary120: #00408E; /* primary 120 */
   --sdCoreEaPrimary140: #00306B;
-  --sdCoreEaSecondary100: #00224C;
-  --sdCoreEaSecondary120: #001B3E;
-  --sdCoreEaSecondary140: #00142E;
+  --sdCoreEaSecondary100: #A21E1F;
+  --sdCoreEaSecondary120: #85191A;
+  --sdCoreEaSecondary140: #671314;
   --sdCoreTextSpacingSm: 12px; /* default spacing between paragraph text blocks */
   --sdCoreButtonBorderWidthDefault: 2px; /* Default border size on buttons */
   --sdCoreBorderRadiusDefault: 6px; /* Default border radius for all elements */
@@ -83,11 +83,13 @@ body{
 .secondary:hover {
     border: var(--sdCoreButtonBorder);
     border-color: var(--sdCoreEaSecondary120);
+    background-color: var(--sdCoreEaSecondary120);
   }
 
 .secondary:active {
     border: var(--sdCoreButtonBorder);
     border-color: var(--sdCoreEaSecondary140);
+    background-color: var(--sdCoreEaSecondary140);
   }
 
 .secondary.outline {
